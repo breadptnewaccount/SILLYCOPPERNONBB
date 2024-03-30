@@ -74,6 +74,7 @@
     {"name":"scr_player_groundpound","order":16,"path":"scripts/scr_player_groundpound/scr_player_groundpound.yy",},
     {"name":"spr_player_runturn","order":51,"path":"sprites/spr_player_runturn/spr_player_runturn.yy",},
     {"name":"spr_player_combo","order":4,"path":"sprites/spr_player_combo/spr_player_combo.yy",},
+    {"name":"mu_ambience","order":1,"path":"sounds/mu_ambience/mu_ambience.yy",},
     {"name":"sfx_mach4","order":11,"path":"sounds/sfx_mach4/sfx_mach4.yy",},
     {"name":"spr_player_runmax","order":48,"path":"sprites/spr_player_runmax/spr_player_runmax.yy",},
     {"name":"spr_player_backflip","order":2,"path":"sprites/spr_player_backflip/spr_player_backflip.yy",},

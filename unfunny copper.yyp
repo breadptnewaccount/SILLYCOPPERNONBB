@@ -100,6 +100,7 @@
     {"id":{"name":"par_collision","path":"objects/par_collision/par_collision.yy",},},
     {"id":{"name":"spr_player_runturn","path":"sprites/spr_player_runturn/spr_player_runturn.yy",},},
     {"id":{"name":"spr_player_combo","path":"sprites/spr_player_combo/spr_player_combo.yy",},},
+    {"id":{"name":"mu_ambience","path":"sounds/mu_ambience/mu_ambience.yy",},},
     {"id":{"name":"sfx_mach4","path":"sounds/sfx_mach4/sfx_mach4.yy",},},
     {"id":{"name":"NekoPresence","path":"extensions/NekoPresence/NekoPresence.yy",},},
     {"id":{"name":"spr_player_runmax","path":"sprites/spr_player_runmax/spr_player_runmax.yy",},},
