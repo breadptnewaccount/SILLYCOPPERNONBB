@@ -180,6 +180,7 @@
     {"id":{"name":"spr_doorB","path":"sprites/spr_doorB/spr_doorB.yy",},},
     {"id":{"name":"spr_player_slide","path":"sprites/spr_player_slide/spr_player_slide.yy",},},
     {"id":{"name":"spr_player_uppercut","path":"sprites/spr_player_uppercut/spr_player_uppercut.yy",},},
+    {"id":{"name":"obj_music","path":"objects/obj_music/obj_music.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"scr_mathFunctions","path":"scripts/scr_mathFunctions/scr_mathFunctions.yy",},},
     {"id":{"name":"spr_player_mach2jump","path":"sprites/spr_player_mach2jump/spr_player_mach2jump.yy",},},
