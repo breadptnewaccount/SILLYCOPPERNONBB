@@ -34,3 +34,24 @@ yscale = 1
 angle = 0
 alpha = 1
 grav = 0.3
+
+//mach shit
+
+mach = noone
+mach_play = noone
+
+function machsfx(sfx) 
+{
+    if (mach == sfx)
+    {
+    }
+    if (mach != noone)
+        audio_stop_sound(machplay)
+    if (sfx != noone)
+    {
+        mach = sfx
+        mach_play = audio_play_sound(sfx, 0, true, 0.5)
+    }
+    else
+        mach = noone
+}
