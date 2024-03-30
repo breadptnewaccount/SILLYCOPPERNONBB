@@ -41,18 +41,18 @@ grav = 0.3
 mach = noone;
 mach_play = noone;
 
-machsfx = function(sfx) 
+machsfx = function(argument0) 
 {
-	if mach == sfx {
+	if mach == argument0 {
 		exit;
 	}
 	if mach != noone {
         audio_stop_sound(mach_play)
 	}
-	if sfx != noone
+	if argument0 != noone
     {
-        mach = sfx
-        mach_play = audio_play_sound(sfx, 0, true, 0.5)
+        mach = argument0
+        mach_play = audio_play_sound(argument0, 0, true, 0.5)
 	}
     else
         mach = noone
