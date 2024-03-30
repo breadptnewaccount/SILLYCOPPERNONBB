@@ -41,5 +41,6 @@ function scr_player_idle(){
 		sprite_index = spr_player_fall
 		image_index = 0
 		vsp = -8.5
+		audio_play_sound(sfx_jump, 1, false)
 	}
 }

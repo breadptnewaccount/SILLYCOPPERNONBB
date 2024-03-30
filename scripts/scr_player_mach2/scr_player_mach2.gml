@@ -35,6 +35,7 @@ function scr_player_mach2(){
 		image_index = 0
 		vsp = -8.5 - (movespeed / 50)
 		movespeed *= xscale
+		audio_play_sound(sfx_jump, 1, false)
 	}
 	if (movespeed >= 8)
 	{

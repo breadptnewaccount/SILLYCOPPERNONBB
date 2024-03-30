@@ -41,30 +41,15 @@ switch state {
 		break
 }
 if key_start
-	game_restart()
-	
-if grounded
-{
-    if (sprite_index == spr_player_mach4)
-        self.machsfx(sfx_mach4)
-    else if (sprite_index == spr_player_mach3)
-        self.machsfx(sfx_mach3)
-    else if (sprite_index == spr_player_mach2)
-        self.machsfx(sfx_mach2)
-    else if (sprite_index == spr_player_mach1)
-        self.machsfx(sfx_mach1)
-    /*
-	else if (sprite_index == spr_player_dance)
-    {
-        self.machsfx(sfx_flutedancing)
-        audio_pause_sound(obj_music.music)
-    }
-    else
-    {
-        self.machsfx(-4)
-        if audio_is_paused(obj_music.music)
-            audio_resume_sound(obj_music.music)
-    }*/
-	else
-		self.machsfx(-4)
+game_restart()
+if (sprite_index == spr_player_mach4)
+	self.machsfx(sfx_mach4)
+else if (sprite_index == spr_player_mach3)
+	self.machsfx(sfx_mach3)
+else if (sprite_index == spr_player_mach2)
+	self.machsfx(sfx_mach2)
+else if (sprite_index == spr_player_mach1)
+	self.machsfx(sfx_mach1)
+else {
+	self.machsfx(-4)
 }

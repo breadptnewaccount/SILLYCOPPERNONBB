@@ -32,6 +32,7 @@ function scr_player_mach3(){
 	}
 	if (key_jump)
 	{
+		audio_play_sound(sfx_jump, 1, false)
 		state = states.jump
 		sprite_index = spr_player_mach2fall
 		image_index = 0
