@@ -1,3 +1,3 @@
 targetDoor = "A"
 targetRoom = 0
-depth = -100
+depth = 1
