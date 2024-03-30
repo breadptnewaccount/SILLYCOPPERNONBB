@@ -1,3 +1,3 @@
-function scr_player_cling(){
+function scr_player_cling() {
 
 }
