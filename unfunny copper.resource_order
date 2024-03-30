@@ -18,6 +18,7 @@
     {"name":"Unown Collision","order":1,"path":"folders/Sprites/Unown Collision.yy",},
     {"name":"music","order":2,"path":"folders/Sounds/music.yy",},
     {"name":"sounds","order":3,"path":"folders/Sounds/sounds.yy",},
+    {"name":"room","order":15,"path":"folders/Sounds/sounds/room.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_move","order":40,"path":"sprites/spr_player_move/spr_player_move.yy",},
@@ -160,6 +161,7 @@
     {"name":"spr_player_glidejumpstart","order":21,"path":"sprites/spr_player_glidejumpstart/spr_player_glidejumpstart.yy",},
     {"name":"scr_collisionLibraryCollision","order":1,"path":"scripts/scr_collisionLibraryCollision/scr_collisionLibraryCollision.yy",},
     {"name":"spr_collect","order":16,"path":"sprites/spr_collect/spr_collect.yy",},
+    {"name":"sfx_door","order":1,"path":"sounds/sfx_door/sfx_door.yy",},
     {"name":"scr_player_idle","order":1,"path":"scripts/scr_player_idle/scr_player_idle.yy",},
   ],
 }

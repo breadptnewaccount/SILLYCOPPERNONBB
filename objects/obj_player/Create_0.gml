@@ -37,21 +37,22 @@ grav = 0.3
 
 //mach shit
 
-mach = noone
-mach_play = noone
+mach = noone;
+mach_play = noone;
 
-function machsfx(sfx) 
+machsfx = function(sfx) 
 {
-    if (mach == sfx)
-    {
-    }
-    if (mach != noone)
-        audio_stop_sound(machplay)
-    if (sfx != noone)
+	if mach == sfx {
+		exit;
+	}
+	if mach != noone {
+        audio_stop_sound(mach_play)
+	}
+	if sfx != noone
     {
         mach = sfx
         mach_play = audio_play_sound(sfx, 0, true, 0.5)
-    }
+	}
     else
         mach = noone
 }

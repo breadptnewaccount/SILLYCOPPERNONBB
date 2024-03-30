@@ -9,5 +9,6 @@ with (other)
 		image_index = 0
 		targetDoor = other.targetDoor
 		targetRoom = other.targetRoom
+		audio_play_sound_3d(sfx_dooropen,1,false)
 	}
 }

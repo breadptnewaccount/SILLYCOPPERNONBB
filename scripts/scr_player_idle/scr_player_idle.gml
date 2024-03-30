@@ -10,7 +10,7 @@ function scr_player_idle(){
 		sprite_index = spr_player_dash
 		image_index = 0
 	}
-	if (key_down2)
+	if key_down2 and key_jump2
 	{
 		with (instance_create(x, y, obj_rageeffect))
 		{
