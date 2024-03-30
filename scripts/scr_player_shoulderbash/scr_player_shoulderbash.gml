@@ -5,4 +5,13 @@ function scr_player_shoulderbash(){
 	{
 		state = states.run
 	}
+	if (key_left2 or key_left) or (key_right2 or key_right) {
+		state = states.idle
+		if image_xscale = 1 {
+			image_xscale = -1	
+		}
+		if image_xscale = -1 {
+			image_xscale = 1	
+		}
+	}
 }
