@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "mu_fuckmesideways",
+  "name": "sfx_groundpoundprep",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 127.10417,
+  "duration": 2.073696,
   "parent": {
-    "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "name": "sounds",
+    "path": "folders/Sounds/sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "mu_fuckmesideways.ogg",
+  "soundFile": "sfx_groundpoundprep.wav",
   "type": 0,
   "volume": 1.0,
 }

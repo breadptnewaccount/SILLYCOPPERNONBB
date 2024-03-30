@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 2.808,
+  "duration": 2.073696,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "sounds",
+    "path": "folders/Sounds/sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sfx_boost.mp3",
+  "soundFile": "sfx_boost.wav",
   "type": 0,
   "volume": 1.0,
 }
