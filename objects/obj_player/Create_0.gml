@@ -14,6 +14,7 @@ enum states {
 	backbreaker,
 	groundpound,
 }
+global.debug = false
 image_speed = 0.35
 depth = -107
 global.hp = 4
