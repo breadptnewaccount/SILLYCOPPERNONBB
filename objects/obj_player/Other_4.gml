@@ -13,4 +13,5 @@ if (targetDoor == "C" && instance_exists(obj_doorC))
 	x = (obj_doorC.x + 16)
 	y = (obj_doorC.y - 14)
 }
-audio_play_sound(sfx_door,1,false)
+if place_meeting(x,y,obj_door)
+	audio_play_sound(sfx_door,1,false);
