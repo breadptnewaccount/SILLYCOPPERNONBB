@@ -12,13 +12,18 @@
     {"name":"Misc Scripts","order":2,"path":"folders/Scripts/Unown Collisions/Misc Scripts.yy",},
     {"name":"Shaders","order":2,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":1,"path":"folders/Sounds.yy",},
+    {"name":"music","order":2,"path":"folders/Sounds/music.yy",},
+    {"name":"sounds","order":3,"path":"folders/Sounds/sounds.yy",},
     {"name":"Sprites","order":7,"path":"folders/Sprites.yy",},
     {"name":"player","order":6,"path":"folders/Sprites/player.yy",},
     {"name":"masks","order":1,"path":"folders/Sprites/player/masks.yy",},
     {"name":"Unown Collision","order":1,"path":"folders/Sprites/Unown Collision.yy",},
+<<<<<<< Updated upstream
     {"name":"music","order":2,"path":"folders/Sounds/music.yy",},
     {"name":"sounds","order":3,"path":"folders/Sounds/sounds.yy",},
     {"name":"room","order":15,"path":"folders/Sounds/sounds/room.yy",},
+=======
+>>>>>>> Stashed changes
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_move","order":40,"path":"sprites/spr_player_move/spr_player_move.yy",},
