@@ -44,7 +44,7 @@ function scr_player_jump(){
 			state = states.dive
 			jumpreverted = 0
 		}
-		if (place_meeting_solid(x + 4 * xscale, y))
+		if (place_meeting_solid(x + 2 * xscale, y))
 		{
 			state = states.cling
 			sprite_index = spr_player_wallslide
