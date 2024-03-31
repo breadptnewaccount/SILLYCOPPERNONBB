@@ -33,7 +33,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Unown Collision","folderPath":"folders/Sprites/Unown Collision.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tilesets","folderPath":"folders/Tilesets.yy",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sillycompany.mp4","CopyToMask":-1,"filePath":"datafiles/videos/preintro",},
+  ],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
@@ -162,6 +164,7 @@
     {"id":{"name":"spr_sonicslopecollision","path":"sprites/spr_sonicslopecollision/spr_sonicslopecollision.yy",},},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},},
     {"id":{"name":"sfx_escapeimpact","path":"sounds/sfx_escapeimpact/sfx_escapeimpact.yy",},},
+    {"id":{"name":"PREIntro","path":"rooms/PREIntro/PREIntro.yy",},},
     {"id":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},},
     {"id":{"name":"scr_collisionFunctions","path":"scripts/scr_collisionFunctions/scr_collisionFunctions.yy",},},
     {"id":{"name":"spr_hp","path":"sprites/spr_hp/spr_hp.yy",},},
@@ -200,6 +203,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},},
+    {"roomId":{"name":"PREIntro","path":"rooms/PREIntro/PREIntro.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

@@ -133,6 +133,7 @@
     {"name":"spr_sonicslopecollision","order":21,"path":"sprites/spr_sonicslopecollision/spr_sonicslopecollision.yy",},
     {"name":"obj_platform","order":2,"path":"objects/obj_platform/obj_platform.yy",},
     {"name":"sfx_escapeimpact","order":4,"path":"sounds/sfx_escapeimpact/sfx_escapeimpact.yy",},
+    {"name":"PREIntro","order":2,"path":"rooms/PREIntro/PREIntro.yy",},
     {"name":"rm_test2","order":1,"path":"rooms/rm_test2/rm_test2.yy",},
     {"name":"spr_hp","order":8,"path":"sprites/spr_hp/spr_hp.yy",},
     {"name":"spr_player_dance","order":7,"path":"sprites/spr_player_dance/spr_player_dance.yy",},
