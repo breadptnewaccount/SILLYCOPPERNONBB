@@ -1,4 +1,6 @@
 function scr_player_mach2(){
+	move = (key_left + key_right)
+	hsp = (movespeed * xscale)
 	if (floor(image_index) == image_number - 1 && sprite_index == spr_player_mach1)
 	{
 		sprite_index = spr_player_mach2
@@ -17,8 +19,6 @@ function scr_player_mach2(){
 		sprite_index = spr_player_dash
 		image_index = 0
 	}
-	move = (key_left + key_right)
-	hsp = (movespeed * xscale)
 	if (sprite_index != spr_player_slide)
 		movespeed = Approach(movespeed, 18, 0.2)
 	if (move != xscale)

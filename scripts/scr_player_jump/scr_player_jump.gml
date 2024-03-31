@@ -34,12 +34,22 @@ function scr_player_jump(){
 		state = states.run
 		jumpreverted = 0
 		sprite_index = spr_player_mach1
+		show_debug_message("reverted to run")
 	}
-	if ((mach2mode || mach4mode) && key_down)
+	if (mach2mode || mach4mode)
 	{
-		movespeed *= xscale
-		state = states.dive
-		jumpreverted = 0
+		if (key_down)
+		{
+			movespeed *= xscale
+			state = states.dive
+			jumpreverted = 0
+		}
+		if (place_meeting_solid(x + 4 * xscale, y))
+		{
+			state = states.cling
+			sprite_index = spr_player_wallslide
+			show_debug_message("started wall slide")
+		}
 	}
 	else if key_down2
 	{

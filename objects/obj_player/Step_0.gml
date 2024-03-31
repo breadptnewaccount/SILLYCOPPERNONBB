@@ -36,6 +36,9 @@ switch state {
 	case states.groundpound:
 		scr_player_groundpound()
 		break
+	case states.cling:
+		scr_player_cling()
+		break
 	default:
 		state = states.idle
 		break
