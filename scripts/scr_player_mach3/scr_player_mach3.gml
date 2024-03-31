@@ -1,7 +1,8 @@
 function scr_player_mach3(){
 	move = (key_left + key_right)
 	hsp = (movespeed * xscale)
-	movespeed = Approach(movespeed, 20, 0.09)
+	if (movespeed <= 20)
+		movespeed += 0.1
 	if (key_down)
 	{
 		state = states.slide
@@ -39,5 +40,8 @@ function scr_player_mach3(){
 		vsp = -8.5 - (movespeed / 5)
 		movespeed *= xscale
 		mach4mode = 0
+	}
+	if (place_meeting_solid(x + 2 * xscale, y)) {
+		movespeed = hsp
 	}
 }

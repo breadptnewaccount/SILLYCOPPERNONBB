@@ -32,6 +32,7 @@ movespeed = 0
 move = 0
 xscale = 1
 yscale = 1
+homing = false
 angle = 0
 alpha = 1
 grav = 0.3

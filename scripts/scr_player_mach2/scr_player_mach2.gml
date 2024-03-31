@@ -1,6 +1,8 @@
 function scr_player_mach2(){
 	move = (key_left + key_right)
 	hsp = (movespeed * xscale)
+	if (movespeed <= 18)
+		movespeed += 0.2
 	if (floor(image_index) == image_number - 1 && sprite_index == spr_player_mach1)
 	{
 		sprite_index = spr_player_mach2
@@ -20,8 +22,6 @@ function scr_player_mach2(){
 		sprite_index = spr_player_dash
 		image_index = 0
 	}
-	if (sprite_index != spr_player_slide)
-		movespeed = Approach(movespeed, 18, 0.2)
 	if (move != xscale)
 	{
 		state = states.machslide
@@ -43,5 +43,9 @@ function scr_player_mach2(){
 		sprite_index = spr_player_mach3
 		mach2mode = 1
 		flash = 1
+	}
+	if (place_meeting_solid(x + 2 * xscale, y))
+	{
+		movespeed = hsp
 	}
 }

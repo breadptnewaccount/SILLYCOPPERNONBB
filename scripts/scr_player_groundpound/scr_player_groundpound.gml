@@ -1,5 +1,7 @@
 function scr_player_groundpound(){
 	vsp = approach(vsp, 20, 0.2)
+	if (vsp >= 0)
+		vsp = 20
 	if (grounded)
 	{
 		state = states.jump

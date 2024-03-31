@@ -9,8 +9,9 @@ view_hport[0] = 540
 camera_set_view_size(view_camera[0], width, height)
 var wport = (view_wport[0] / 2)
 var hport = (view_hport[0] / 2)
-var camx = ((target.x - wport) + offsetx)
-var camy = ((target.y - hport) + offsety)
+if !target.homing {
+camx = Approach(camx, ((target.x - wport) + offsetx), 60)
+camy = Approach(camy, ((target.y - hport) + offsety) - 50, 60)}
 var playerstate = obj_player.state
 var playersp = obj_player.movespeed
 if (playerstate == states.run2)
@@ -20,7 +21,6 @@ else
 camx = clamp(camx, 0, (room_width - view_wport[0]))
 camy = clamp(camy, 0, (room_height - view_hport[0]))
 camera_set_view_pos(view_camera[0], camx, camy)
-var bgid = layer_background_get_id("Backgrounds_1")
 layer_x("Backgrounds_1", camx)
 layer_y("Backgrounds_1", camy)
 if (shake_mag > 0)

@@ -53,7 +53,7 @@ function scr_player_jump(){
 	}
 	else if key_down2
 	{
-		vsp = -3
+		vsp = -5
 		hsp = 0
 		movespeed = 0
 		with (instance_create(x, y, obj_rageeffect))
@@ -70,5 +70,34 @@ function scr_player_jump(){
 		}	
 		state = states.groundpound
 		sprite_index = spr_player_groundpound
+	}
+	var enemydistance = distance_to_object(obj_baddie)
+	var enemy = instance_nearest(x, y, obj_baddie);
+	if (enemydistance <= 350)
+	{
+		with (enemy)
+		{
+			draw_sprite(spr_convexslope, 0, x, y)
+			if (other.key_jump)
+			{
+				with (other)
+				{
+					with (instance_create(x, y, obj_rageeffect))
+					{
+						sprite_index = other.sprite_index
+						image_index = other.image_index
+					}	
+					homing = true
+					x = other.x
+					y = other.y
+					sprite_index = spr_player_otherfall
+					image_index = 0
+					vsp = -10
+					movespeed = 0
+					obj_camera.approachingplayer = 1
+				}
+				instance_destroy()
+			}
+		}
 	}
 }
