@@ -15,6 +15,7 @@ function scr_player_mach2(){
 	}
 	if (key_attack2)
 	{
+		audio_play_sound(sfx_dashing,1,false)
 		state = states.shoulderbash
 		sprite_index = spr_player_dash
 		image_index = 0

@@ -5,7 +5,8 @@ function scr_player_idle(){
 	yscale = Approach(yscale, 1, 0.1)
 	if (key_attack2)
 	{
-		//audio_play_sound(sfx_dashing,1,false) only plays sometimes
+		//nope, bread, you forgot to add the sound to scr_player_mach2|3
+		audio_play_sound(sfx_dashing,1,false)
 		state = states.shoulderbash
 		movespeed = -1
 		sprite_index = spr_player_dash
