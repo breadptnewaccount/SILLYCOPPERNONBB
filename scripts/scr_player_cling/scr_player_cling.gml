@@ -7,7 +7,7 @@ function scr_player_cling() {
 		xscale *= -1
 		state = states.jump
 		movespeed = 7 * xscale
-		vsp = -4
+		vsp = -10
 		sprite_index = spr_player_jump
 	}
 	if (grounded)
