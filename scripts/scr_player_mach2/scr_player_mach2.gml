@@ -14,7 +14,6 @@ function scr_player_mach2(){
 	if (key_attack2)
 	{
 		state = states.shoulderbash
-		movespeed *= xscale
 		sprite_index = spr_player_dash
 		image_index = 0
 	}
