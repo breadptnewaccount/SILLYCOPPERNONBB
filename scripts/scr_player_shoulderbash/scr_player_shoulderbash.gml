@@ -23,4 +23,5 @@ function scr_player_shoulderbash(){
 		state = states.idle
 		sprite_index = spr_player_idle
 	}//here is your fix
+	//thanks
 }
