@@ -6,6 +6,7 @@ function scr_player_idle(){
 	if (key_attack2)
 	{
 		//nope, bread, you forgot to add the sound to scr_player_mach2|3
+		//ah fuck
 		audio_play_sound(sfx_dashing,1,false)
 		state = states.shoulderbash
 		movespeed = -1
