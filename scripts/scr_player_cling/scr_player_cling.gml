@@ -10,7 +10,7 @@ function scr_player_cling() {
 		vsp = -10
 		sprite_index = spr_player_jump
 	}
-	if (grounded)
+	if (grounded || (!place_meeting_solid(x + 2 * xscale, y) && state != states.jump && sprite_index != spr_player_jump))
 	{
 		state = states.idle
 		sprite_index = spr_player_idle
