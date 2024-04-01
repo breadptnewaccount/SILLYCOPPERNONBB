@@ -19,6 +19,7 @@
     {"name":"player","order":6,"path":"folders/Sprites/player.yy",},
     {"name":"masks","order":1,"path":"folders/Sprites/player/masks.yy",},
     {"name":"Unown Collision","order":1,"path":"folders/Sprites/Unown Collision.yy",},
+    {"name":"levels","order":3,"path":"folders/Sounds/music/levels.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_move","order":40,"path":"sprites/spr_player_move/spr_player_move.yy",},
