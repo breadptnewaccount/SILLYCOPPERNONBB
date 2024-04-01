@@ -5,10 +5,9 @@ if (playerdis <= 350 && player.state == states.jump && player.homingattackid == 
 {
 	draw_circle(x, y, 40, true)
 }
-if (playerdis <= 350 && player.state == states.jump && !homing)
+if (playerdis <= 350 && player.state == states.jump && !homing && player.homingattackid == id)
 {
 	homing = true
-
 }
 else if (playerdis >= 350 && homing)
 {
