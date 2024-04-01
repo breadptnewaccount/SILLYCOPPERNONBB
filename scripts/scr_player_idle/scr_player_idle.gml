@@ -13,8 +13,7 @@ function scr_player_idle(){
 		sprite_index = spr_player_dash
 		image_index = 0
 	}
-	/*
-	if key_down2 and key_jump2
+	if key_down and key_jump2 // who the fuck uses "and" and not &&
 	{
 		with (instance_create(x, y, obj_rageeffect))
 		{
@@ -22,12 +21,12 @@ function scr_player_idle(){
 			image_index = other.image_index
 		}	
 		state = states.run2
-		movespeed = 16
+		vsp = -2
+		movespeed = 16 * xscale
 		sprite_index = spr_player_mach3
 		image_index = 0
 		audio_play_sound(sfx_boost, 1, false)
 	}
-	*/// ill fix it later
 	if (move != 0)
 	{
 		image_index = 0

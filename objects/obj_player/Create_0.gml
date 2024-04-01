@@ -18,6 +18,7 @@ global.debug = true
 image_speed = 0.35
 depth = -107
 global.hp = 4
+homingattackid = -4
 targetRoom = rm_test
 targetDoor = "A"
 jumpreverted = 0
