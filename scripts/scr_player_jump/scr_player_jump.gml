@@ -72,10 +72,10 @@ function scr_player_jump(){
 		sprite_index = spr_player_groundpound
 	}
 	var enemydistance = distance_to_object(obj_baddie)
-	var enemy = instance_nearest(x, y, obj_baddie);
+	homingattackid = instance_nearest(x, y, obj_baddie);
 	if (enemydistance <= 350)
 	{
-		with (enemy)
+		with (homingattackid)
 		{
 			draw_sprite(spr_convexslope, 0, x, y)
 			if (other.key_jump)
