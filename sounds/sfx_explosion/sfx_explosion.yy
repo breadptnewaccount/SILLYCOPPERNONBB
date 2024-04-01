@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.024354,
+  "duration": 1.491066,
   "parent": {
-    "name": "sounds",
-    "path": "folders/Sounds/sounds.yy",
+    "name": "misc",
+    "path": "folders/Sounds/sounds/misc.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sfx_explosion.ogg",
+  "soundFile": "sfx_explosion.wav",
   "type": 0,
   "volume": 1.0,
 }

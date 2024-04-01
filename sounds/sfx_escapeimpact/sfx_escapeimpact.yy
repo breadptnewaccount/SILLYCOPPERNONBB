@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 6.325896,
   "parent": {
-    "name": "sounds",
-    "path": "folders/Sounds/sounds.yy",
+    "name": "escape shit",
+    "path": "folders/Sounds/sounds/escape shit.yy",
   },
   "preload": false,
   "sampleRate": 44100,

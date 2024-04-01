@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 186.66667,
   "parent": {
-    "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "name": "escape",
+    "path": "folders/Sounds/music/escape.yy",
   },
   "preload": false,
   "sampleRate": 44100,

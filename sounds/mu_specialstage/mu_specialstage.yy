@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 127.10417,
   "parent": {
-    "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "name": "essential",
+    "path": "folders/Sounds/music/essential.yy",
   },
   "preload": false,
   "sampleRate": 44100,
