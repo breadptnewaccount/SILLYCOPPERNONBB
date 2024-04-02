@@ -1,3 +1,4 @@
+global.debug = true
 scr_initinput()
 scr_collision_init()
 enum states {
@@ -14,7 +15,6 @@ enum states {
 	backbreaker,
 	groundpound,
 }
-global.debug = true
 image_speed = 0.35
 depth = -107
 global.hp = 4

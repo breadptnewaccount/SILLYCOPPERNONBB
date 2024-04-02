@@ -1,1 +1,2 @@
-targetRoom = rm_test2
+targetRoom = tiletest
+targetDoor = "A"

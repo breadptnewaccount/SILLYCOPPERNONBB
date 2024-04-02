@@ -21,8 +21,10 @@ else
 camx = clamp(camx, 0, (room_width - view_wport[0]))
 camy = clamp(camy, 0, (room_height - view_hport[0]))
 camera_set_view_pos(view_camera[0], camx, camy)
-layer_x("Backgrounds_1", camx)
-layer_y("Backgrounds_1", camy)
+if room != tiletest {
+	layer_x("Backgrounds_1", camx)
+	layer_y("Backgrounds_1", camy)
+}
 if (shake_mag > 0)
 {
     shake_mag -= shake_mag_acc

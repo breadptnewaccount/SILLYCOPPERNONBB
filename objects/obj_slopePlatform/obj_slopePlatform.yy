@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Collision",
-    "path": "folders/Objects/Unown Collisions/Collision.yy",
+    "name": "main",
+    "path": "folders/Objects/Unown Collisions/Collision/main.yy",
   },
   "parentObjectId": {
     "name": "par_collision",
