@@ -21,7 +21,7 @@ else
 camx = clamp(camx, 0, (room_width - view_wport[0]))
 camy = clamp(camy, 0, (room_height - view_hport[0]))
 camera_set_view_pos(view_camera[0], camx, camy)
-if room != tiletest {
+if room != sahara_1 {
 	layer_x("Backgrounds_1", camx)
 	layer_y("Backgrounds_1", camy)
 }

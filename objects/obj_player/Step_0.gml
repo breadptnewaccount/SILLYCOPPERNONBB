@@ -56,3 +56,8 @@ else if (sprite_index == spr_player_mach1)
 else {
 	self.machsfx(-4)
 }
+
+if mouse_check_button_pressed(mb_left) {
+	x = mouse_x;
+	y = mouse_y;	
+}
