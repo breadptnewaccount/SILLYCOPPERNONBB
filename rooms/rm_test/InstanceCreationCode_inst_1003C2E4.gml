@@ -1,2 +1,2 @@
-targetRoom = tiletest
+targetRoom = sahara_1
 targetDoor = "A"

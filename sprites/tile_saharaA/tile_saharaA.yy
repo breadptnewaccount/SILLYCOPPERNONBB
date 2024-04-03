@@ -4,7 +4,7 @@
   "name": "tile_saharaA",
   "bbox_bottom": 383,
   "bbox_left": 32,
-  "bbox_right": 639,
+  "bbox_right": 703,
   "bbox_top": 32,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d25d7d75-dc83-43bd-8a84-8dd346b30e14",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d3f829ef-6a06-47bd-b7b0-9ec5ea1bf951",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 428,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b53697c1-173d-481d-ad2e-0abaaf1b60a4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b55aea66-2dce-451f-89ae-571c0b76fde9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d25d7d75-dc83-43bd-8a84-8dd346b30e14","path":"sprites/tile_saharaA/tile_saharaA.yy",},},},"Disabled":false,"id":"097c7bf4-cac1-4262-8688-2f5b92ce8705","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d3f829ef-6a06-47bd-b7b0-9ec5ea1bf951","path":"sprites/tile_saharaA/tile_saharaA.yy",},},},"Disabled":false,"id":"318a0fd2-9ec2-4a49-86c9-487a55724d3f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 676,
+  "width": 808,
 }
