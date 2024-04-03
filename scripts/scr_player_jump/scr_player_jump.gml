@@ -36,6 +36,12 @@ function scr_player_jump(){
 		sprite_index = spr_player_mach1
 		show_debug_message("reverted to run")
 	}
+	if (place_meeting_solid(x + 2 * xscale, y))
+	{
+		state = states.cling
+		sprite_index = spr_player_wallslide
+		show_debug_message("started wall slide")
+	}
 	if (mach2mode || mach4mode)
 	{
 		if (key_down)
@@ -43,12 +49,6 @@ function scr_player_jump(){
 			movespeed *= xscale
 			state = states.dive
 			jumpreverted = 0
-		}
-		if (place_meeting_solid(x + 2 * xscale, y))
-		{
-			state = states.cling
-			sprite_index = spr_player_wallslide
-			show_debug_message("started wall slide")
 		}
 	}
 	else if key_down2
