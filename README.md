@@ -1,3 +1,4 @@
+(it was supposed to look like this: https://media.discordapp.net/attachments/1223255546413584496/1229802443148103805/grafik.png?ex=663101c7&is=661e8cc7&hm=3e265b6f465a796e7ad5e2ee8e9ba3ba43c001cd874ef5b7e0ccc887fb72a2a6&=&format=webp&quality=lossless)
 # Silly Copper Development History
 
 NOTE: i cancelled sc because of the shit what finlito and vadimos did to me (finlito and i made peace between us now)
